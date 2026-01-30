@@ -1,0 +1,108 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Boiled Egg",
+      "price": 10,
+      "text": "Perfectly boiled eggs with a soft yolk, seasoned with herbs and spices.",
+      "image": "/images/egg.png",
+      "type": "breakfast",
+      "rating": 4.5,
+      "calories": 155
+    },
+    {
+      "id": 2,
+      "name": "RAMEN",
+      "price": 25,
+      "text": "Authentic Japanese ramen with rich broth, tender noodles, and fresh toppings.",
+      "image": "/images/ramen.png",
+      "type": "lunch",
+      "rating": 4.8,
+      "calories": 450
+    },
+    {
+      "id": 3,
+      "name": "GRILLED CHICKEN",
+      "price": 45,
+      "text": "Juicy grilled chicken breast marinated in special herbs and spices.",
+      "image": "/images/chicken.png",
+      "type": "dinner",
+      "rating": 4.7,
+      "calories": 320
+    },
+    {
+      "id": 4,
+      "name": "CAKE",
+      "price": 18,
+      "text": "Delicious chocolate cake with creamy frosting and fresh berries.",
+      "image": "/images/cake.png",
+      "type": "breakfast",
+      "rating": 4.6,
+      "calories": 380
+    },
+    {
+      "id": 5,
+      "name": "BURGER",
+      "price": 23,
+      "text": "Classic beef burger with fresh lettuce, tomatoes, and special sauce.",
+      "image": "/images/burger.png",
+      "type": "lunch",
+      "rating": 4.4,
+      "calories": 550
+    },
+    {
+      "id": 6,
+      "name": "PANCAKE",
+      "price": 25,
+      "text": "Fluffy pancakes served with maple syrup and fresh fruits.",
+      "image": "/images/pancake.png",
+      "type": "dinner",
+      "rating": 4.3,
+      "calories": 420
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "demo@foodzone.com",
+      "password": "demo123",
+      "name": "Demo User",
+      "role": "user",
+      "createdAt": "2024-01-01"
+    },
+    {
+      "id": 2,
+      "email": "aditya.chande2001@gmail.com",
+      "password": "Adit1234",
+      "name": "Aditya Chande",
+      "role": "user",
+      "createdAt": "2025-12-16T11:45:58.211Z"
+    },
+    {
+      "id": 3,
+      "email": "aditya.chande2001@protonmail.com",
+      "password": "Aditya@25",
+      "name": "Aditya Ravindra Chande",
+      "role": "user",
+      "createdAt": "2026-01-28T15:57:47.053Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "items": [
+        {
+          "foodId": 1,
+          "name": "Boiled Egg",
+          "quantity": 1,
+          "price": 10
+        }
+      ],
+      "total": 16,
+      "userEmail": "aditya.chande2001@protonmail.com",
+      "status": "pending",
+      "createdAt": "2026-01-28T15:57:53.534Z"
+    }
+  ],
+  "cart": []
+}
